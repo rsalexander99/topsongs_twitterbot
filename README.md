@@ -9,7 +9,7 @@ Tweet the name of any K-pop group, and tag the twitter handle, @kpop_topsongbot 
 - "What's the latest from Cravity?" or, 
 - "What songs are trending by BTS?" 
 
-My favorite K-pop groups are BTS, DAY6, and Mamamoo, and I would encourage anyone unfamiliar with K-pop to check them out! For K-pop groups with punctuation and spacing in their name, tweet the groupname without those additional characters. For example:
+My favorite K-pop groups are BTS, DAY6, and Mamamoo, and I would encourage anyone unfamiliar with K-pop to check them out! For K-pop groups with punctuation and spacing in their name, tweet the group's name without those additional characters. For example:
 - "NCT 127" becomes "NCT127"
 - "N'UEST" becomes "NUEST" 
 
