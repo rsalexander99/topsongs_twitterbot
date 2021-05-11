@@ -29,7 +29,7 @@ I relied heavily on articles and video tutorials explaining how to use tweepy an
 
 Roadblocks:
 - I faced signifcant issues extracting my consumer keys as environment variables. For a while, I experimented with the options for encoding, in an attempt to solve the following error: <<UnicodeEncodeError: 'ascii' codec can't encode character '\u201c' in position 0: ordinal not in range(128).>> However, nothing seemed to work, and I opted to manually bake my consumer keys into my bot's script, and replaced them with placeholder strings when uploading to GitHub
-- Additionally, I struggled to deploy my container to EC2. I kept getting the error: <<tweepy.error.TweepError: 'code': 187, 'message': 'Status is a duplicate.'>>, and after failing to get any sort of "try" and "except" conditional to work, I opted to manually delete every mention I had ever sent to my bot's account. This involved asking my family members to delete all mentions from their personal accounts as well. :) This worked, and my container image in EC2.
+- Additionally, I struggled to deploy my container to EC2. I kept getting the error: <<tweepy.error.TweepError: 'code': 187, 'message': 'Status is a duplicate.'>>, and after failing to get any sort of "try" and "except" conditional to work, I opted to manually delete every mention I had ever sent to my bot's account. This involved asking my family members to delete all mentions from their personal accounts as well. :) This worked, and I was finally able to my container image in EC2.
 
 ## Other K-pop group recommendations from me:
 
