@@ -33,7 +33,7 @@ Roadblocks:
 
 ## Other K-pop group recommendations from me:
 
-Check out K-pop songs and music videos as the bot informs you! The K-pop genre is ever-expanding, so there is defintely something for everyone to enjoy!
+Check out K-pop songs and music videos as the bot informs you! From fashion, to dance, to music, the K-pop genre is ever-expanding, so there is defintely something for everyone to enjoy!
 
  - Red Velvet
  - NCT 127
