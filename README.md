@@ -5,7 +5,7 @@ This bot extracts data from Spotify's Web API to return the Top 3 currently most
 
 ## How to Use:
 
-Tweet the name of any K-pop group, and tag the twitter handle, @kpop_topsongbot. You can simply tweet the name of the group you are interested in, or you can tweet a complete question which includes that group's name, such as:
+Tweet the name of any K-pop group, and tag the twitter handle, @kpop_topsongbot in your tweet. You can simply tweet the name of the group you are interested in, or you can tweet a complete question which includes that group's name, such as:
 - "What's the latest from Cravity?" or, 
 - "What songs are trending by BTS?" 
 
