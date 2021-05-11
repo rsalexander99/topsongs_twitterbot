@@ -1,7 +1,7 @@
 # topsongs_twitterbot
 Tweet a K-pop group's name to @kpop_topsongbot to find out what tracks are trending from your favs!
 
-This bot extracts data from Spotify's Web API to return the Top 3 currently most popular songs by the requested K-pop group.
+This bot extracts data from Spotify's Web API to return the Top 3 currently most popular songs by the user's requested K-pop group.
 
 ## How to Use:
 
