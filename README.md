@@ -15,13 +15,13 @@ My favorite K-pop groups are BTS, DAY6, and Mamamoo, and I would encourage anyon
 
 To access these directions on Twitter, tweet 'help' to the bot. Do not worry about capitalization, the bot will still recognize group names which may be incorrectly capitalized in the user's mention. Additionally, this bot only returns song data on still-active K-pop groups. Groups which have disbanded will not be recognized.
 
+This bot deploys every 30 seconds, so it will take up to 30 seconds for a user's mention to recieve a reply. 
+
 ## How it Works:
 
 Spotify assigns every song a popularity rating according to the number of plays it as, as well as how recent those plays are. This bot connects to the Spotify Web API to access metadata on the Top 10 most popular songs by the artist specified in the tweet mention. I used the spotipy library to interact with the Spotify API, and the tweepy library to interact with the Twitter API. To call the correct Spotify endpoint to access data on the artist's top tracks, this bot's script uses the pandas library to pull the artist ID string of the specified K-pop group from a local csv file mounted to a container running on EC2. I personally compiled this csv with all the K-pop artists I could think of, so if a still-active and correctly specified K-pop group is not found by this bot, it is because I have never heard of them. (*Correction: Blackpink will not be recognized by this bot, despite being a internationally well-known group. I accidently forgot to include them in my local csv file.*)
 
 This bot access the most recent user mentions by storing the user's tweet ID in a text file mounted to the container. This bot's script reads in this text file, extracts the last tweet ID from the last time the script was run, and then updates that text file with the most recent tweet ID, extracted during the script's latest run.
-
-This bot deploys every 30 seconds, so it will take up to 30 seconds for a user's mention to recieve a reply. 
 
 ## Project Reflections
 
